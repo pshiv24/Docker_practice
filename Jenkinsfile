@@ -5,9 +5,9 @@ pipeline {
         //pip install requirements.txt echo "Python compile done"
         } 
       } 
-   stage("Unit test"){ 
-      steps { sh "python example.py" 
-      }
-    } 
-  }
+    stage("Unit test"){ 
+        steps { sh "python example.py" 
+        }
+      } 
+    }
 } 
