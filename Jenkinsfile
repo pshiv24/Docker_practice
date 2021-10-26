@@ -3,7 +3,8 @@ pipeline {
   stages { 
     stage("Compile") {  
       steps { 
-        //pip install requirements.txt echo "Python compile done"
+        //pip install requirements.txt 
+              echo "Python compile done"
         } 
       } 
     stage("Unit test"){ 
